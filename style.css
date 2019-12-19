@@ -13,6 +13,8 @@ body, html, div, main, header, h1 {
   grid-auto-rows: 14vw;
   height: 100vh;
   color: #005eac;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
 }
 
 .day {
