@@ -1,4 +1,4 @@
-body, html, div, main, header {
+body, html, div, main, header, h1 {
   margin: 0;
   padding: 0;
 }
@@ -19,13 +19,16 @@ body, html, div, main, header {
 .calendar-header {
   grid-column-start: 1;
   grid-column-end: -1;
-  background-color: powderblue;
+  background-image: url(duotone.png);
+  background-size: cover;
   display: flex;
   align-items: flex-end;
 }
 
 .space {
   grid-column-start: 1;
+  /* this is what we should change for each month: */
+  /* depending on the day it starts on */
   grid-column-end: 3;
   background-color: rosybrown;
 }
