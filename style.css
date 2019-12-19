@@ -15,11 +15,13 @@ body, html, div, main, header, h1 {
   color: #005eac;
   font-family: 'Work Sans', sans-serif;
   font-weight: 800;
+  font-size: 30px;
 }
 
 .day {
   background-color:#f6cde1;
   margin: 5px;
+  padding: 5px;
 }
 
 .calendar-header {
@@ -29,6 +31,7 @@ body, html, div, main, header, h1 {
   background-size: cover;
   display: flex;
   align-items: flex-end;
+  margin: 5px;
 }
 
 .space {
