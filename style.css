@@ -1,3 +1,6 @@
+/* pink is #f6cde1 */
+/* blue is #005eac */
+
 body, html, div, main, header, h1 {
   margin: 0;
   padding: 0;
@@ -9,10 +12,11 @@ body, html, div, main, header, h1 {
   grid-template-rows: 1fr;
   grid-auto-rows: 14vw;
   height: 100vh;
+  color: #005eac;
 }
 
 .day {
-  background-color: palegoldenrod;
+  background-color:#f6cde1;
   margin: 5px;
 }
 
@@ -30,5 +34,4 @@ body, html, div, main, header, h1 {
   /* this is what we should change for each month: */
   /* depending on the day it starts on */
   grid-column-end: 3;
-  background-color: rosybrown;
 }
